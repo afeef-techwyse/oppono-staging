@@ -1,0 +1,1 @@
+export function objectFilter(obj, filter) {return Object.fromEntries(Object.entries(obj).filter(filter));}
