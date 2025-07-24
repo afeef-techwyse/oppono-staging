@@ -2,9 +2,9 @@ import { config } from "dotenv";
 config();
 // const wpSiteUrl = 'https://codesign82.com/oppono';
 // const wpSiteUrl = 'https://master-7rqtwti-oer23r2mz66wc.ca-1.platformsh.site';
-const wpSiteUrl = 'https://staging-5em2ouy-oer23r2mz66wc.ca-1.platformsh.site';
-const frontEndSiteUrl = 'https://oppono-staging-git-main-oasis-techwyses-projects.vercel.app';
-// const frontEndSiteUrl = 'http://localhost:3000';
+const wpSiteUrl = 'https://oppono-app.com';
+// const frontEndSiteUrl = 'https://oppono-staging-git-main-oasis-techwyses-projects.vercel.app';
+const frontEndSiteUrl = 'http://localhost:3000';
 
 
 const settings = {
