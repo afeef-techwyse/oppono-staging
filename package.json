@@ -12,7 +12,7 @@
     },
     "scripts": {
         "dev": "frontity dev",
-        "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider frontity build",
+        "build": "NODE_OPTIONS=--openssl-legacy-provider && frontity build",
         "serve": "frontity serve"
     },
     "prettier": {},
