@@ -1,20 +1,8 @@
 {
-    "builds": [
-        {
-            "src": "package.json",
-            "use": "@frontity/now"
-        }
-    ],
-    "redirects": [
-        { 
-          "source": "/oppo-catalogue",
-          "destination": "/products", 
-          "permanent": true
-        },
-        { 
-          "source": "/oppo-catalogue/",
-          "destination": "/products", 
-          "permanent": true
-        }
-    ]
+  "builds": [
+    { "src": "package.json", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "build/server.js" }
+  ]
 }
