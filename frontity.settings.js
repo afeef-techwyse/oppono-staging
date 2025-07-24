@@ -4,7 +4,7 @@ config();
 // const wpSiteUrl = 'https://master-7rqtwti-oer23r2mz66wc.ca-1.platformsh.site';
 const wpSiteUrl = 'https://oppono-app.com';
 // const frontEndSiteUrl = 'https://oppono-staging-git-main-oasis-techwyses-projects.vercel.app';
-const frontEndSiteUrl = 'http://localhost:3000';
+const frontEndSiteUrl = 'https://oppono-staging-sigma.vercel.app';
 
 
 const settings = {
