@@ -6,10 +6,7 @@
     "keywords": [
         "frontity"
     ],
-    "engines": {
-        "node": ">=18.20.8 <19.0.0",
-        "npm": ">=6.0.0"
-    },
+   "engines": { "node": "12.x" },
     "scripts": {
         "dev": "frontity dev",
         "build": "frontity build",
