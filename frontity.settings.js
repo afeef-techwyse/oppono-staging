@@ -6,7 +6,6 @@ const wpSiteUrl = 'https://oppono-app.com';
 // const frontEndSiteUrl = 'https://oppono-staging-git-main-oasis-techwyses-projects.vercel.app';
 const frontEndSiteUrl = 'https://grand-valkyrie-32ed8c.netlify.app';
 
-
 const settings = {
   'name': 'oppono-frontity',
   'state': {
